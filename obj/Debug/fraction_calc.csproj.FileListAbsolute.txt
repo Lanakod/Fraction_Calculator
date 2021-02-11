@@ -1,0 +1,10 @@
+C:\Users\lanak\source\repos\fraction_calc\fraction_calc\bin\Debug\fraction_calc.exe.config
+C:\Users\lanak\source\repos\fraction_calc\fraction_calc\bin\Debug\fraction_calc.exe
+C:\Users\lanak\source\repos\fraction_calc\fraction_calc\bin\Debug\fraction_calc.pdb
+C:\Users\lanak\source\repos\fraction_calc\fraction_calc\obj\Debug\fraction_calc.csprojAssemblyReference.cache
+C:\Users\lanak\source\repos\fraction_calc\fraction_calc\obj\Debug\fraction_calc.Form1.resources
+C:\Users\lanak\source\repos\fraction_calc\fraction_calc\obj\Debug\fraction_calc.Properties.Resources.resources
+C:\Users\lanak\source\repos\fraction_calc\fraction_calc\obj\Debug\fraction_calc.csproj.GenerateResource.cache
+C:\Users\lanak\source\repos\fraction_calc\fraction_calc\obj\Debug\fraction_calc.csproj.CoreCompileInputs.cache
+C:\Users\lanak\source\repos\fraction_calc\fraction_calc\obj\Debug\fraction_calc.exe
+C:\Users\lanak\source\repos\fraction_calc\fraction_calc\obj\Debug\fraction_calc.pdb
