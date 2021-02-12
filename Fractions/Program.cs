@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace fraction_calc
+namespace Fractions
 {
     static class Program
     {

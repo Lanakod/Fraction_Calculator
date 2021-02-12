@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace fraction_calc.Properties
+namespace Fractions.Properties
 {
 
 

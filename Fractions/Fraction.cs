@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace fraction_calc
+namespace Fractions
 {
     class Fraction
     {
@@ -54,9 +54,9 @@ namespace fraction_calc
 
         public override string ToString()
         {
-            if(imag == 0) return $"{real}";
-            else if(real == 0) return $"{imag} i";
-            
+            if (imag == 0) return $"{real}";
+            else if (real == 0) return $"{imag} i";
+
             if (imag < 0)
             {
                 imag *= -1;
@@ -69,9 +69,9 @@ namespace fraction_calc
 
         public static Fraction operator +(Fraction a, Fraction b) => new Fraction(a.real + b.real, a.imag + b.imag);
         public static Fraction operator -(Fraction a, Fraction b) => new Fraction(a.real - b.real, a.imag - b.imag);
-        public static Fraction operator *(Fraction a, Fraction b) => new Fraction(a.real * b.real + (a.imag * b.imag) * -1, a.imag*b.real + a.real*b.imag);
+        public static Fraction operator *(Fraction a, Fraction b) => new Fraction(a.real * b.real + (a.imag * b.imag) * -1, a.imag * b.real + a.real * b.imag);
         public static Fraction operator /(Fraction a, Fraction b) => new Fraction(
-            (a.real*b.real + a.imag*b.imag) / (Math.Pow(b.real, 2) + Math.Pow(b.imag, 2)),
+            (a.real * b.real + a.imag * b.imag) / (Math.Pow(b.real, 2) + Math.Pow(b.imag, 2)),
             (b.real * a.imag - a.real * b.imag) / (Math.Pow(b.real, 2) + Math.Pow(b.imag, 2))
             );
     }

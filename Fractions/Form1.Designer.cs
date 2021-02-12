@@ -1,4 +1,4 @@
-﻿namespace fraction_calc
+﻿namespace Fractions
 {
     partial class Form1
     {
